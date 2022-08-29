@@ -1,0 +1,83 @@
+body {
+  padding: 0%;
+  margin: 0;
+  outline: 0;
+  height: 100vh;
+  background: url(cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 192, 203, 0);
+  z-index: 1;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  font-family: "courgette", cursive;
+}
+
+.kartu_ucapan {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 40%;
+  padding: 25px;
+  font-family: "courgatte", cursive;
+}
+
+.kartu_ucapan label {
+  font-size: 1.3rem;
+}
+
+.kartu_ucapan input {
+  width: 100%;
+  font-size: 1.3rem;
+  font-family: "courgatte", cursive;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+
+*:focus {
+  outline: None;
+}
+
+.kartu_ucapan textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  font-size: 1.3rem;
+  font-family: "courgette", cursive;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+
+.kartu_ucapan button {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  float: right;
+  font-family: "courgette", cursive;
+  transition: 1s;
+}
+
+.kartu_ucapan button:hover {
+  color: pink;
+}
